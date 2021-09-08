@@ -54,7 +54,7 @@
             <a href="/edit/{{ post.id }}/">Edit</a>
           </div>
           <div class="logo">
-            <a href="#"><img src="/static/img/s.jpeg" /></a>
+            <a href=""><img src="/static/img/s.jpeg" /></a>
           </div>
           <div class="name_body">
             <div class="name">{{ post.name }}</div>
@@ -63,7 +63,7 @@
             <img src="{{post.image.url}}" alt="" class="postimage" />
             <div class="icon"><br>
               <a href="likes/{{ post.id }}">
-                <img style="width:20px" class="like"  src="{% static 'img/heart.png' %}"
+                <img class="like"  src="{% static 'img/heart.png' %}"
               /></a>
               {{ post.like_count }}
             </div>
